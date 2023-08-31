@@ -49,13 +49,13 @@ function uploadcar1() {
 	/*
 	Corrige los nombres de la función
 	*/
-	cTx.drawImage(car1_imgTag, car1_x, car1_y, car1_width, car1_height);
+	ctx.drawImage(car1_imgTag, car1_x, car1_y, car1_width, car1_height);
 }
 function uploadcar2() {
 	/*
 	Corrige los nombres de la función
 	*/
-	ctx.DrawImage(car2_imgTag, car2_x, car2_y, car2_width, car2_height);
+	ctx.drawImage(car2_imgTag, car2_x, car2_y, car2_width, car2_height);
 }
 
 window.addEventListener("keydown", my_keydown);
